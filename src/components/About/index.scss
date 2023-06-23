@@ -9,6 +9,12 @@
   overflow: hidden;
 }
 
+@media only-screen and (max-width: 768px){
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
