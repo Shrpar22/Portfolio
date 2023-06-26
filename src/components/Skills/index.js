@@ -34,8 +34,8 @@ const Skills = () => {
             myself up to date with the latest technologies around.
           </p>
           <p>
-            My skills include wireframing, 
-          </p>
+            My skills include wireframing, I have a passion for creating visually appealing and user-friendly digital experiences. With expertise in both design principles and coding languages, I bring a unique blend of skills to the table.</p>
+            <p>On the frontend development side, I possess strong proficiency in HTML, CSS, and JavaScript, and I stay up to date with the latest web development trends and best practices. I am skilled in responsive web design, ensuring that websites and applications are accessible and optimized for various devices and screen sizes. I have a solid understanding of web accessibility standards, SEO principles, and cross-browser compatibility.</p>
         </div>
 
         <div className="tagcloud-wrap">

@@ -44,7 +44,7 @@ const About = () => {
             I'm a Web developer, who loves using UI/UX to make my webpages more interactive and user-friendly.
           </p>
           <p>
-            I'm also a beginner at full-stack development. Python is my favorite language.
+            I'm also a beginner at full-stack development. Python is my favorite coding language.
           </p>
           <p>
             If I need to define myself in one sentence that would be an Music

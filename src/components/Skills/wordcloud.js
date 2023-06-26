@@ -5,7 +5,6 @@ const WordCloud = () => {
   const [isLoading, setLoad] = useState(true)
 
   const container = '.content'
-  //   ['Java', 'React', 'mongoDB', 'Express', 'NodeJS', 'Redux', 'HTML5', 'CSS3', 'JS', 'Flask', 'Flutter', 'Dart', 'FireBase', 'MySQl', 'C++', 'C', 'Pythons', 'Django', 'Git', 'Ubuntu' ]
   const texts = [
     'UI/UX',
     'React',
@@ -16,14 +15,13 @@ const WordCloud = () => {
     'HTML5',
     'CSS3',
     'JS',
-    'Flutter',
+    'Postman',
     'Python',
-    'Dart',
+    'Cybersecurity',
     'Visual Design',
     'MySQl',
     'C++',
     'C',
-    'Django',
     'Git',
     'Ubuntu',
   ]
