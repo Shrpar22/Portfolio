@@ -33,6 +33,45 @@
   }
 }
 
+// Responsive Design for Logo
+@media screen and (max-width: 1200px) {
+  .logo-container {
+    width: 350px;
+    height: 530px;
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .logo-container {
+    width: 300px;
+    height: 450px;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px auto;
+    top: auto;
+    bottom: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-container {
+    width: 150px;
+    height: 225px;
+    margin: 10px auto;
+  }
+}
+
 .svg-container {
   stroke: #ffd700;
   stroke-width: 10;

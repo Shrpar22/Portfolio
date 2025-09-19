@@ -50,6 +50,28 @@ const Box = styled.div`
     bottom: -20px;
     opacity: 0.9;
   }
+
+  @media screen and (max-width: 768px) {
+    right: 2rem;
+    top: 2rem;
+    
+    &:before,
+    &:after {
+      font-size: 14px;
+      left: -50px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    right: 1rem;
+    top: 1rem;
+    
+    &:before,
+    &:after {
+      font-size: 12px;
+      left: -40px;
+    }
+  }
 `
 
 const play = keyframes`

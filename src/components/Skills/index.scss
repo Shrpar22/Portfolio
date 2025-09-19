@@ -1,5 +1,4 @@
 .tagcloud-wrap {
-  // background: gray;
   float: right;
   width: 53%;
   height: 115%;
@@ -15,12 +14,58 @@
   .tagcloud--item:hover {
     color: #C8A2C8;
   }
-
 }
 
+// Responsive Design for Skills Page
+@media screen and (max-width: 1200px) {
+  .tagcloud-wrap {
+    width: 50%;
+    
+    .tagcloud {
+      font-size: 18px;
+    }
+  }
+}
 
-@media only-screen and (max-width: 768px){
-  [class*="col-"] {
+@media screen and (max-width: 992px) {
+  .tagcloud-wrap {
+    width: 45%;
+    
+    .tagcloud {
+      font-size: 16px;
+      margin: 8% auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tagcloud-wrap {
+    position: relative;
     width: 100%;
+    height: 400px;
+    float: none;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .tagcloud {
+      font-size: 14px;
+      margin: 0 auto;
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tagcloud-wrap {
+    height: 300px;
+    
+    .tagcloud {
+      font-size: 12px;
+      width: 250px;
+      height: 250px;
+    }
   }
 }

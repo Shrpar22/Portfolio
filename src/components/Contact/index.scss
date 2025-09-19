@@ -122,3 +122,129 @@
     }
   }
 }
+
+// Responsive Design for Contact Page
+@media screen and (max-width: 1200px) {
+  .contact-form {
+    ul li {
+      &.half {
+        width: 100%;
+        margin-left: 0;
+        float: none;
+      }
+    }
+  }
+  
+  .map-wrap {
+    width: 50%;
+  }
+  
+  .info-map {
+    right: 25%;
+    width: 240px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .map-wrap {
+    width: 45%;
+  }
+  
+  .info-map {
+    right: 20%;
+    width: 220px;
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    margin-top: 10px;
+    
+    ul li {
+      margin-bottom: 15px;
+      
+      &.half {
+        width: 100%;
+        margin-left: 0;
+        float: none;
+      }
+    }
+    
+    input[type='text'],
+    input[type='email'] {
+      height: 45px;
+      font-size: 14px;
+      padding: 0 15px;
+    }
+    
+    textarea {
+      height: 45px;
+      font-size: 14px;
+      padding: 15px;
+      min-height: 120px;
+    }
+    
+    .flat-button {
+      float: none;
+      width: 100%;
+      text-align: center;
+      margin-right: 0;
+      padding: 12px 15px;
+      font-size: 12px;
+    }
+  }
+  
+  .map-wrap {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    float: none;
+    margin: 20px 0 0 0;
+  }
+  
+  .info-map {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    input[type='text'],
+    input[type='email'] {
+      height: 40px;
+      font-size: 13px;
+      padding: 0 12px;
+    }
+    
+    textarea {
+      font-size: 13px;
+      padding: 12px;
+      min-height: 100px;
+    }
+    
+    .flat-button {
+      padding: 10px 12px;
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
+  }
+  
+  .map-wrap {
+    height: 250px;
+  }
+  
+  .info-map {
+    font-size: 13px;
+    padding: 12px;
+  }
+}

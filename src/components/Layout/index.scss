@@ -115,6 +115,111 @@
   }
 }
 
+// Responsive Design
+@media screen and (max-width: 1200px) {
+  .container.contact-page,
+  .container.about-page,
+  .container.skills-page {
+    .text-zone {
+      width: 45%;
+      
+      h1 {
+        font-size: 45px;
+      }
+      
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container.contact-page,
+  .container.about-page,
+  .container.skills-page {
+    .text-zone {
+      width: 55%;
+      left: 5%;
+      
+      h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+      }
+      
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding-left: 0;
+  }
+  
+  .tags {
+    left: 10px;
+    font-size: 14px;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .container.contact-page,
+  .container.about-page,
+  .container.skills-page {
+    .text-zone {
+      position: relative;
+      width: 100%;
+      left: 0;
+      top: 20px;
+      transform: none;
+      padding: 20px 0;
+      
+      h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        text-align: center;
+        
+        &:before,
+        &:after {
+          display: none;
+        }
+      }
+      
+      p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container.contact-page,
+  .container.about-page,
+  .container.skills-page {
+    .text-zone {
+      padding: 10px 0;
+      
+      h1 {
+        font-size: 28px;
+      }
+      
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
 // n is number of stars required
 @function multiple-box-shadow($n) {
   $value: '#{random(2000)}px #{random(2000)}px #FFF';
